@@ -1,3 +1,12 @@
+<!-- 
+	1. Select Product (optional)
+	2. Select color on costum shape
+	3. Add design elements as possitionable layers (elements are a pre selected amount of graphics
+	4. Add Text elements
+	
+
+
+-->
 <html>
 <head>
 	<title>layeredCanvas Example</title>
@@ -143,5 +152,30 @@ myCanvas.addLayer( {
 		});
 	});
 	</script>
-</body>
+	
+	    <canvas id="myCard" width="578" height="300"></canvas>
+    <script>
+      var canvas = document.getElementById('myCard');
+      var context = canvas.getContext('2d');
+
+      // begin custom shape
+      context.beginPath();
+      context.moveTo(170, 80);
+      context.bezierCurveTo(133.67601,595.32523 -39.247439,-39.32271 0,-166.39158 0,-166.39159 245.036959,0 245.03696,0 40.67731,40.75003 40.67734,40.75003 0,164.96425 0,164.96426 -246.46685,0 -246.46684,0 -39.24744,-39.32269)
+
+      context.bezierCurveTo(130, 100, 130, 150, 230, 150);
+      context.bezierCurveTo(250, 180, 320, 180, 340, 150);
+      context.bezierCurveTo(420, 150, 420, 120, 390, 100);
+      context.bezierCurveTo(430, 40, 370, 30, 340, 50);
+      context.bezierCurveTo(320, 5, 250, 20, 250, 50);
+      context.bezierCurveTo(200, 5, 150, 20, 170, 80);
+
+      // complete custom shape
+      context.closePath();
+      context.lineWidth = 5;
+      context.strokeStyle = 'blue';
+      context.stroke();
+    </script>
+	
+	</body>
 </html>
