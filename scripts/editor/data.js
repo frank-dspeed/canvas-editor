@@ -790,26 +790,402 @@
     id: 3423, type: 'clipart', tags: 'moustache,silhouette', width: 410, height: 334, scale: 0.6, src: 'clipart/moustache_nine.png'
 }, {
     id: 3424, type: 'clipart', tags: 'moustache,silhouette', width: 545, height: 105, scale: 0.6, src: 'clipart/moustache_ten.png'
-}, {
-    id: 4000, type: 'text', tags: 'birthday', title: 'Know the true value of time;\n snatch, seize, and enjoy every moment of it.\n No idleness, no delay, no procrastination;\n never put off till tomorrow,\n what you can do today.'
-}, {
-    id: 4001, type: 'text', tags: 'birthday', title: 'Every year on your birthday, you get a chance to start new. \n-Sammy Hagar'
-}, {
-    id: 4002, type: 'text', tags: 'birthday', title: "Presents don't really mean much to me. I don't want to sound mawkish, but - it was the realization that I have a great many people in my life who really love me, and who I really love."
-}, {
-    id: 4003, type: 'text', tags: 'birthday', title: "It was on my fifth birthday that Papa put his hand on my shoulder and said, 'Remember, my son, if you ever need a helping hand, you'll find one at the end of your arm.'"
-}, {
-    id: 4004, type: 'text', tags: 'birthday', title: "About astrology and palmistry: they are good because they make people vivid and full of possibilities. They are communism at its best. Everybody has a birthday and almost everybody has a palm."
-}, {
-    id: 4005, type: 'text', tags: 'birthday', title: 'Let us celebrate the occasion with wine and sweet words.'
-}, {
-    id: 4100, type: 'text', tags: 'love', title: 'A kiss is a lovely trick designed by nature to stop speech when words become superfluous.'
-}, {
-    id: 4200, type: 'text', tags: 'life', title: 'Throughout life people will make you mad, disrespect you and treat you bad. Let God deal with the things they do, cause hate in your heart will consume you too.'
-}, {
-    id: 4300, type: 'text', tags: 'wisdom', title: 'A wise man is superior to any insults which can be put upon him, and the best reply to unseemly behavior is patience and moderation. '
-}, {
-    id: 4400, type: 'text', tags: 'humor', title: 'My computer beat me at checkers, but I sure beat it at kickboxing.'
+}, { 
+    id: 4001, type: 'text', tags: 'Birthday', title: 'May your birthday be filled to the brim with all things wonderful, all things good, and lots and lots of cake. Preferably chocolate cake. With butter cream frosting and sprinkles. Gosh, that sounds good. Really good. Save a piece for me, if you wouldn’t mind. Happy birthday, my friend.' 
+}, { 
+    id: 4002, type: 'text', tags: 'Birthday', title: 'Your birthday happens to be one of the most extraordinary and life-changing days of my life because it is the day I had you. Every hour since the day you were born, and especially today, I have not stopped being thankful for the wonderful gift of having you for a son (or daughter). Happy birthday.' 
+}, { 
+    id: 4003, type: 'text', tags: 'Birthday', title: 'We seem to have been friends almost forever. So, even though we are living so far apart now, I want you to know that I am always thinking of you on this special day and remembering all the beautiful and happy times we have shared over the years. Here’s wishing you have the happiest of birthdays, my friend.' 
+}, { 
+    id: 4004, type: 'text', tags: 'Birthday', title: 'May your birthday be filled to the brim with all things wonderful, all things good, and lots and lots of cake. Preferably chocolate cake. With butter cream frosting and sprinkles. Gosh, that sounds good. Really good. Save a piece for me, if you wouldn’t mind. Happy birthday, my friend.' 
+}, { 
+    id: 4005, type: 'text', tags: 'Birthday', title: 'Your birthday happens to be one of the most extraordinary and life-changing days of my life because it is the day I had you. Every hour since the day you were born, and especially today, I have not stopped being thankful for the wonderful gift of having you for a son (or daughter). Happy birthday.' 
+}, { 
+    id: 4006, type: 'text', tags: 'Birthday', title: 'We seem to have been friends almost forever. So, even though we are living so far apart now, I want you to know that I am always thinking of you on this special day and remembering all the beautiful and happy times we have shared over the years. Here’s wishing you have the happiest of birthdays, my friend.' 
+}, { 
+    id: 4007, type: 'text', tags: 'Birthday', title: 'Hear ye, hear ye! Let it be known throughout the land that today is your birthday. And furthermore, it has been officially decreed that on this particular day forthwith the entire world shall revolve around you and only you. In other words, it’s like any other day. Just with cake and presents and stuff. Hope it’s happy!' 
+}, { 
+    id: 4008, type: 'text', tags: 'Birthday', title: '“If I had words to make a day for you, I’d sing you a morning golden and true. I would make this day last for all time, then fill the night deep with moonshine." I was thinking about what I could give you for your birthday this year that show you how important and special you are to me. Then I realised that nothing I could ever give you would come close. Happy birthday, baby.' 
+}, { 
+    id: 4009, type: 'text', tags: 'Birthday', title: 'Today is your birthday. Therefore, we all know that there will inevitably be some smart aleck who feels the need to make obnoxious wisecracks about your age. The purpose of this letter is to give you the heads-up that this year that person is me. Happy birthday, old friend! And I do mean old. Like ancient.' 
+}, { 
+    id: 4010, type: 'text', tags: 'Birthday', title: 'Surprise! I remembered your birthday! And I took the time to send you this greeting! Not only that, it’s on time! I am so gosh-darned proud of myself that I think I deserve some cake and a present. Feel free to celebrate my awesomeness by doing the same. Happy birthday.' 
+}, { 
+    id: 4011, type: 'text', tags: 'Birthday', title: 'A wise man once said that the life of a human being should be measured not by the number of years he has walked the earth, but by the laughter and love he has shared with others. I say that is an excellent sentiment but at the end of the day, you are still older than me. Happy birthday, my friend.' 
+}, { 
+    id: 4012, type: 'text', tags: 'Birthday', title: 'Best wishes for a memorable birthday to someone who is smart, funny, charming, good-looking, brilliant, generous and talented. Someone who reminds me a whole lot of myself, come to think of it. That’s most likely why we are such good friends. So, here’s hoping that you have a birthday as exceptional as we are.' 
+}, { 
+    id: 4013, type: 'text', tags: 'Birthday', title: 'This year, I have but one simple wish: that you shall have the most perfectly splendid birthday that has ever been had by anyone, anywhere, in the history of the planet. I realize that’s a lot of pressure to put on you, but it does seem the least you could do given that I have gone to all the trouble to send you this greeting. Happy birthday.' 
+}, { 
+    id: 4014, type: 'text', tags: 'Birthday', title: 'Today you are a year older, a year wiser. Hopefully, this new wisdom will help you to realise how much the people in your life care about you. So here is wishing you a very Happy Birthday, and another great year ahead of you in the coming year' 
+}, { 
+    id: 4015, type: 'text', tags: 'Birthday', title: 'So it’s your birthday today? Are you surprised that I remembered to send you my best wishes? You shouldn’t be. Do you know why? Because you are somebody I care about, a valuable person in my life, and I could not let the chance go by to wish you a very Happy Birthday!' 
+}, { 
+    id: 4016, type: 'text', tags: 'Birthday', title: 'It’s a real shame that your birthday comes only once a year. If it came more often, I could send you more lovely messages like this one! This is just a small message, to let you know that you are in somebody’s thoughts today and that you are being wished a very Happy Birthday!' 
+}, { 
+    id: 4017, type: 'text', tags: 'Birthday', title: 'Hear ye, hear ye! Let it be known throughout the land that today is your birthday. And furthermore, it has been officially decreed that on this particular day forthwith the entire world shall revolve around you and only you. In other words, it’s like any other day. Just with cake and presents and stuff. Hope it’s happy!' 
+}, { 
+    id: 4018, type: 'text', tags: 'Birthday', title: '“If I had words to make a day for you, I’d sing you a morning golden and true. I would make this day last for all time, then fill the night deep with moonshine." I was thinking about what I could give you for your birthday this year that show you how important and special you are to me. Then I realised that nothing I could ever give you would come close. Happy birthday, baby.' 
+}, { 
+    id: 4019, type: 'text', tags: 'Birthday', title: 'Today is your birthday. Therefore, we all know that there will inevitably be some smart aleck who feels the need to make obnoxious wisecracks about your age. The purpose of this letter is to give you the heads-up that this year that person is me. Happy birthday, old friend! And I do mean old. Like ancient.' 
+}, { 
+    id: 4020, type: 'text', tags: 'Birthday', title: 'Surprise! I remembered your birthday! And I took the time to send you this greeting! Not only that, it’s on time! I am so gosh-darned proud of myself that I think I deserve some cake and a present. Feel free to celebrate my awesomeness by doing the same. Happy birthday.' 
+}, { 
+    id: 4021, type: 'text', tags: 'Birthday', title: 'A wise man once said that the life of a human being should be measured not by the number of years he has walked the earth, but by the laughter and love he has shared with others. I say that is an excellent sentiment but at the end of the day, you are still older than me. Happy birthday, my friend.' 
+}, { 
+    id: 4022, type: 'text', tags: 'Birthday', title: 'Best wishes for a memorable birthday to someone who is smart, funny, charming, good-looking, brilliant, generous and talented. Someone who reminds me a whole lot of myself, come to think of it. That’s most likely why we are such good friends. So, here’s hoping that you have a birthday as exceptional as we are.' 
+}, { 
+    id: 4023, type: 'text', tags: 'Birthday', title: 'This year, I have but one simple wish: that you shall have the most perfectly splendid birthday that has ever been had by anyone, anywhere, in the history of the planet. I realize that’s a lot of pressure to put on you, but it does seem the least you could do given that I have gone to all the trouble to send you this greeting. Happy birthday.' 
+}, { 
+    id: 4024, type: 'text', tags: 'Wedding Anniversary', title: 'I love how I feel when I see your smile. I love that you laugh at all my silly jokes. I love how you know me better than anyone and still love me. I love waking up next to you. Most of all, I love that you said yes when I asked you to marry me. Happy anniversary, baby.' 
+}, { 
+    id: 4025, type: 'text', tags: 'Wedding Anniversary', title: 'I’m not sure if I believe in fate, but at the same time, I think it can’t be an accident that we found each other. Every decision, every life event, and every road taken and not taken…all of it led you to me and me to you at the perfectly right time, and that just can’t be an accident. I am so grateful the stars aligned and so happy to be married to you. Happy anniversary.' 
+}, { 
+    id: 4026, type: 'text', tags: 'Wedding Anniversary', title: '“Give me a kiss and I’ll serenade you under the stars. Give me your love and I will pluck out the stars to set at your feet.” I would give you the whole world if I could. Thank you for marrying me and thank you for the wonderful life we have built together. Happy anniversary, sweetie.' 
+}, { 
+    id: 4027, type: 'text', tags: 'Wedding Anniversary', title: 'Whenever I look at the two of you and see how you are with other, it gives me hope that true love does exist and that it is beautiful. I hope you have a wonderful anniversary full of joy, wonderment, and peace from knowing how lucky you are to have found each other. Happy anniversary.' 
+}, { 
+    id: 4028, type: 'text', tags: 'Wedding Anniversary', title: 'There are so many things I wanted to tell you on our anniversary, but I didn’t even know where to begin. Then I remembered something you taught me. “Love is deaf…you can’t just tell someone you love them. You have to show it.” I hope I show you every day how much I love you and how glad I am that we are married. Happy anniversary.' 
+}, { 
+    id: 4029, type: 'text', tags: 'Wedding Anniversary', title: 'Ever since the day I met you I knew I wanted to marry you. Ever since the day I proposed and you said yes, I have known I was the luckiest man who ever lived. Ever since you said “I do” I have vowed to make you as happy as you make me every single day. Happy anniversary, baby.' 
+}, { 
+    id: 4030, type: 'text', tags: 'Wedding Anniversary', title: '“The love in our family flows strong and deep, leaving us memories to treasure and keep.” On your wedding anniversary I’d like to say, Thank you, Mum and Dad, for teaching me how to love from your example. I am a better person for witnessing what you share with one another. Happy anniversary.' 
+}, { 
+    id: 4031, type: 'text', tags: 'Wedding Anniversary', title: 'I love how I feel when I see your smile. I love that you laugh at all my silly jokes. I love how you know me better than anyone and still love me. I love waking up next to you. Most of all, I love that you said yes when I asked you to marry me. Happy anniversary, baby.' 
+}, { 
+    id: 4032, type: 'text', tags: 'Wedding Anniversary', title: 'I’m not sure if I believe in fate, but at the same time, I think it can’t be an accident that we found each other. Every decision, every life event, and every road taken and not taken…all of it led you to me and me to you at the perfectly right time, and that just can’t be an accident. I am so grateful the stars aligned and so happy to be married to you. Happy anniversary.' 
+}, { 
+    id: 4033, type: 'text', tags: 'Wedding Anniversary', title: '“Give me a kiss and I’ll serenade you under the stars. Give me your love and I will pluck out the stars to set at your feet.” I would give you the whole world if I could. Thank you for marrying me and thank you for the wonderful life we have built together. Happy anniversary, sweetie.' 
+}, { 
+    id: 4034, type: 'text', tags: 'Wedding Anniversary', title: 'Whenever I look at the two of you and see how you are with other, it gives me hope that true love does exist and that it is beautiful. I hope you have a wonderful anniversary full of joy, wonderment, and peace from knowing how lucky you are to have found each other. Happy anniversary.' 
+}, { 
+    id: 4035, type: 'text', tags: 'Wedding Anniversary', title: 'There are so many things I wanted to tell you on our anniversary, but I didn’t even know where to begin. Then I remembered something you taught me. “Love is deaf…you can’t just tell someone you love them. You have to show it.” I hope I show you every day how much I love you and how glad I am that we are married. Happy anniversary.' 
+}, { 
+    id: 4036, type: 'text', tags: 'Wedding Anniversary', title: 'Ever since the day I met you I knew I wanted to marry you. Ever since the day I proposed and you said yes, I have known I was the luckiest man who ever lived. Ever since you said “I do” I have vowed to make you as happy as you make me every single day. Happy anniversary, baby.' 
+}, { 
+    id: 4037, type: 'text', tags: 'Wedding Anniversary', title: '“The love in our family flows strong and deep, leaving us memories to treasure and keep.” On your wedding anniversary I’d like to say, Thank you, Mum and Dad, for teaching me how to love from your example. I am a better person for witnessing what you share with one another. Happy anniversary.' 
+}, { 
+    id: 4038, type: 'text', tags: 'Wedding Anniversary', title: '“Love is a meeting of two souls, fully accepting the dark and the light within each other, bound by the courage to grow through struggle into bliss.” Thank you for loving me and for sharing your life with me through good times and bad. Happy anniversary to my best friend and partner for life.' 
+}, { 
+    id: 4039, type: 'text', tags: 'Wedding Anniversary', title: 'Every love story is beautiful, but ours is my favourite. Every anniversary I am reminded how much I am permanently in love with you, always and forever. Thank you for marrying me and thank you for being such a wonderful wife. Happy anniversary to my first, best and only love.' 
+}, { 
+    id: 4040, type: 'text', tags: 'Wedding Anniversary', title: '“Deep love is more than physical touch. It is being touched on every level, in every cell of your body, every oxygen molecule of your breathing and every firing neuron in your brain.” That said, the physical touch thing is pretty nice too. Happy anniversary to my one and only.' 
+}, { 
+    id: 4041, type: 'text', tags: 'Wedding Anniversary', title: '“Love is a meeting of two souls, fully accepting the dark and the light within each other, bound by the courage to grow through struggle into bliss.” Thank you for loving me and for sharing your life with me through good times and bad. Happy anniversary to my best friend and partner for life.' 
+}, { 
+    id: 4042, type: 'text', tags: 'Wedding Anniversary', title: 'Every love story is beautiful, but ours is my favourite. Every anniversary I am reminded how much I am permanently in love with you, always and forever. Thank you for marrying me and thank you for being such a wonderful wife. Happy anniversary to my first, best and only love.' 
+}, { 
+    id: 4043, type: 'text', tags: 'Wedding Anniversary', title: '“Deep love is more than physical touch. It is being touched on every level, in every cell of your body, every oxygen molecule of your breathing and every firing neuron in your brain.” That said, the physical touch thing is pretty nice too. Happy anniversary to my one and only.' 
+}, { 
+    id: 4044, type: 'text', tags: 'Wedding Anniversary', title: 'Another year has passed, and you are still together. So this message is being sent to celebrate the fact that you are still two, living as one. You make a lovely couple, so let’s hope that you continue to celebrate your wedding anniversary year after year.' 
+}, { 
+    id: 4045, type: 'text', tags: 'Wedding Anniversary', title: 'This is just a short message to let you know that you are not alone in celebrating your wedding anniversary today. Your loved ones also celebrate with you, as we see how good you are for each other. So raise a glass to yet another year passed together.' 
+}, { 
+    id: 4046, type: 'text', tags: 'Wedding Anniversary', title: 'They say that to be truly happy, everyone needs a life partner. It is clear to everyone around you, that you both have found such a life partner. This message is to let you know that you do not celebrate your wedding anniversary alone today. Your friends and family celebrate it as well.' 
+}, { 
+    id: 4047, type: 'text', tags: 'New baby', title: 'Babies are a gift from God. This is such a wonderful time for your family, and we are so happy for you. The next year is going to be the hardest of your life but also the most joyous of your life. Congratulations on the new addition to the family.' 
+}, { 
+    id: 4048, type: 'text', tags: 'New baby', title: 'Congratulations on the safe arrival of the newest addition to your family. May your precious newborn bring joy and wonderment to the world and special joy to you. Wishing you every happiness. Get ready for laughter, a whole bunch of love and lots of hugs. I could not be happier for you.'
+}, { 
+    id: 4049, type: 'text', tags: 'New baby', title: 'Welcome to the world, little one. Congratulations to the proud new parents. A new baby is a miracle that has arrived that you can call your own. This is such a marvelous time for your family, and we are overjoyed to share it with you. May your new role as parents be filled joy, happiness, and love.'
+}, { 
+    id: 4050, type: 'text', tags: 'New baby', title: 'Dear baby, Welcome to the world! It is now time to get ready to get all the love and affection in the world from your lucky parents. It is also time to prepare for all the pampering and spoiling in the world from your overjoyed grandparents. Wishing you all best.'
+}, { 
+    id: 4051, type: 'text', tags: 'New baby', title: 'Wishing you all the luck in the world with your new little one. It is always such a pleasure to hear of a baby being born. It is sure to be a new challenge for you, but rest assured that you are going to be an amazing parent.'
+}, { 
+    id: 4052, type: 'text', tags: 'New baby', title: 'This is a short message to congratulate you on the birth of your baby. A new person brought into the world, with a whole life ahead of them. You are going to make a wonderful parent and are sure to give this baby the very best start in life.'
+}, { 
+    id: 4053, type: 'text', tags: 'New baby', title: 'Congratulations on the birth of your new baby. You can now look forward to sleepless nights, busy days and great responsibility. However, you should know that it is all worthwhile, to see a new life grow right in front of your eyes. Wishing you all the best of luck, you are going to be a great parent.'
+}, { 
+    id: 4054, type: 'text', tags: 'New baby', title: 'Thinking of your newborn I cannot help but be reminded of when you were a baby. Your arrival brought so much joy to our family. We loved watching you grow into the beautiful person you are today. We wish you all the joy you brought to us when you were born. Congratulations and love!'
+}, { 
+    id: 4055, type: 'text', tags: 'New baby', title: 'Congratulations on becoming parents! This is truly a magical time for you and your family. Amidst all the hubbub and late night feedings and diaper changes, cherish every moment of this next year. It will be one tough ride, but your love for your baby will be the anchor that will see you through it all.'
+}, { 
+    id: 4056, type: 'text', tags: 'New baby', title: 'Congratulations to the proud first-time parents! Now you will know that the magical joy of parenthood is like the feeling you had when you first fell in love with each other but multiplied by a hundred. We could not be happier for you. Best wishes for your new bundle of joy.'
+}, { 
+    id: 4057, type: 'text', tags: 'New baby', title: 'Congratulations on your new baby! You have so many wonderful moments to look forward to in the next months. Like feeling your newborn’s hand clasp your finger for the first time. Rocking your baby to sleep for the first time. Seeing your baby laugh for the first time. So many wonderful first times are in your future. Best wishes.'
+}, { 
+    id: 4058, type: 'text', tags: 'New baby', title: 'Congratulations on your second baby! Soon you will find that the best part of having a second child is that no one will try to give you parenting advice because they know you have already done this before. Best wishes to you for the latest addition to your young family.'
+}, { 
+    id: 4059, type: 'text', tags: 'New baby', title: 'Babies are a gift from God. This is such a wonderful time for your family, and we are so happy for you. The next year is going to be the hardest of your life but also the most joyous of your life. Congratulations on the new addition to the family.'
+}, { 
+    id: 4060, type: 'text', tags: 'New baby', title: 'Babies are a gift from God. This is such a wonderful time for your family, and we are so happy for you. The next year is going to be the hardest of your life but also the most joyous of your life. Congratulations on the new addition to the family.'
+}, { 
+    id: 4061, type: 'text', tags: 'New baby', title: 'Welcome to the world, little one. Congratulations to the proud new parents. A new baby is a miracle that has arrived that you can call your own. This is such a marvelous time for your family, and we are overjoyed to share it with you. May your new role as parents be filled joy, happiness, and love.'
+}, { 
+    id: 4062, type: 'text', tags: 'New baby', title: 'Dear baby, Welcome to the world! It is now time to get ready to get all the love and affection in the world from your lucky parents. It is also time to prepare for all the pampering and spoiling in the world from your overjoyed grandparents. Wishing you all best.'
+}, { 
+    id: 4063, type: 'text', tags: 'New baby', title: 'Thinking of your newborn I cannot help but be reminded of when you were a baby. Your arrival brought so much joy to our family. We loved watching you grow into the beautiful person you are today. We wish you all the joy you brought to us when you were born. Congratulations and love!'
+}, { 
+    id: 4064, type: 'text', tags: 'New baby', title: 'Congratulations on becoming parents! This is truly a magical time for you and your family. Amidst all the hubbub and late night feedings and diaper changes, cherish every moment of this next year. It will be one tough ride, but your love for your baby will be the anchor that will see you through it all.'
+}, { 
+    id: 4065, type: 'text', tags: 'New baby', title: 'Congratulations to the proud first-time parents! Now you will know that the magical joy of parenthood is like the feeling you had when you first fell in love with each other but multiplied by a hundred. We could not be happier for you. Best wishes for your new bundle of joy.'
+}, { 
+    id: 4066, type: 'text', tags: 'New baby', title: 'Congratulations on your new baby! You have so many wonderful moments to look forward to in the next months. Like feeling your newborn’s hand clasp your finger for the first time. Rocking your baby to sleep for the first time. Seeing your baby laugh for the first time. So many wonderful first times are in your future. Best wishes.'
+}, { 
+    id: 4067, type: 'text', tags: 'New baby', title: 'Congratulations on your second baby! Soon you will find that the best part of having a second child is that no one will try to give you parenting advice because they know you have already done this before. Best wishes to you for the latest addition to your young family.'
+}, { 
+    id: 4068, type: 'text', tags: 'New baby', title: '“Cupid smiled on you when you became a couple. The heavens smiled upon you when you got married. Angels blessed you when you became parents for the first time. God himself has showered you with blessings, as you have become parents yet again.” Best wishes for you and your newborn.'
+}, { 
+    id: 4069, type: 'text', tags: 'Get Well', title: 'I was so sorry to hear you were in the hospital but, cheer up, there are some advantages. You get breakfast in bed. People send you flowers and teddy bears and such. No one expects you to do anything. You don’t have to take care of anyone. Plus, a lot of the doctors are really cute. Here’s hoping you get well soon.'
+}, { 
+    id: 4070, type: 'text', tags: 'Get Well', title: 'So sorry to hear that you have been unwell. Know that you are in our thoughts, and we are wishing you a full and speedy recovery. In the days to come, don’t let this illness get you down. Soon it will be behind you and forgotten, and you will be well again!'
+}, { 
+    id: 4071, type: 'text', tags: 'Get Well', title: 'Very sorry to hear that you are sick. Let’s hope the road to recovery is short, and that you are back to your old self as quickly as possible. Your family and friends are here to support you, and we will be with you every step of the way.'
+}, { 
+    id: 4072, type: 'text', tags: 'Get Well', title: 'Being sick is no fun, so we are sorry to hear that you are not feeling so well. But think on this a moment. Imagine how great it will feel when you are back to full health? Let’s hope that it doesn’t take too long, and you are feeling your old self again soon!'
+}, { 
+    id: 4073, type: 'text', tags: 'Get Well', title: 'Studies clearly indicate that those who receive Get Well greetings sooner and more often experience an 80% faster rate of recovery than those who do not. Studies also clearly show that those who have many, many people who care about them and wish them well experience feelings of comfort and well-being. If those things are true, you should be feeling better already!'
+}, { 
+    id: 4074, type: 'text', tags: 'Get Well', title: 'I was so glad to hear you are home from the hospital. I hope you will be able to give yourself whatever gifts of time and rest you need to feel better, and know that you’re surrounded by caring thoughts and prayers and heartfelt wishes. Rest easy. Get well.'
+}, { 
+    id: 4075, type: 'text', tags: 'Get Well', title: 'I just got the bad news. I’m so sorry you are unwell. I wish I were there to make you some soup and tea, and just to sit by your bed while you rest. Call me when you feel up to it, hopefully very soon. I love you. Get well soon.'
+}, { 
+    id: 4076, type: 'text', tags: 'Get Well', title: 'I just heard you were not feeling well. I’m not sure what your doctor has said you should do, but I have the perfect prescription and think you really should try it. Just follow these steps: Sleep, eat, take medicine, repeat. You just keep doing that until you feel better. If that doesn’t work, a Nyquil margarita should do the trick. Get well soon.'
+}, { 
+    id: 4077, type: 'text', tags: 'Get Well', title: 'I heard you were still out sick and I’m sorry, but I’ve got to say it. Don’t you think you have been milking this thing long enough? We all know you are just seeking attention. So get yourself out of bed already and rejoin the world. It misses you and so do I. Get well soon.'
+}, { 
+    id: 4078, type: 'text', tags: 'Get Well', title: 'Dear friend, We were all so sad to hear you were in the hospital. We wanted to send our heartfelt best wishes for a speedy recovery. When you laugh, we laugh. When you cry, we cry. When you smile, we smile. And when you fall sick, we feel sick. Get well soon. Nothing is the same without you.'
+}, { 
+    id: 4079, type: 'text', tags: 'Get Well', title: 'I just got the bad news about your illness. It is hard to know what exactly to say at times like this. I just hope my good wishes and prayers will add a bright ray of sunshine to your day, just like how your smiles light up my life. I hope you are feeling better very soon.'
+}, { 
+    id: 4080, type: 'text', tags: 'Get Well', title: 'It is definitely no fun to be sick. But before you go feeling all sorry for yourself, think about it from my perspective. I’ve got no one to go to lunch with. No one to go to the movies with, or out to the mall. No one to gripe with about my job. I mean, I’m the one who is really suffering here. I guess what I’m saying is, please get well soon because I really miss you.'
+}, { 
+    id: 4081, type: 'text', tags: 'Get Well', title: 'I was so sorry to hear you were in the hospital but, cheer up, there are some advantages. You get breakfast in bed. People send you flowers and teddy bears and such. No one expects you to do anything. You don’t have to take care of anyone. Plus, a lot of the doctors are really cute. Here’s hoping you get well soon.'
+}, { 
+    id: 4082, type: 'text', tags: 'Get Well', title: 'Studies clearly indicate that those who receive Get Well greetings sooner and more often experience an 80% faster rate of recovery than those who do not. Studies also clearly show that those who have many, many people who care about them and wish them well experience feelings of comfort and well-being. If those things are true, you should be feeling better already!'
+}, { 
+    id: 4083, type: 'text', tags: 'Get Well', title: 'I was so glad to hear you are home from the hospital. I hope you will be able to give yourself whatever gifts of time and rest you need to feel better, and know that you’re surrounded by caring thoughts and prayers and heartfelt wishes. Rest easy. Get well.'
+}, { 
+    id: 4084, type: 'text', tags: 'Get Well', title: 'I just got the bad news. I’m so sorry you are unwell. I wish I were there to make you some soup and tea, and just to sit by your bed while you rest. Call me when you feel up to it, hopefully very soon. I love you. Get well soon.'
+}, { 
+    id: 4085, type: 'text', tags: 'Get Well', title: 'I just heard you were not feeling well. I’m not sure what your doctor has said you should do, but I have the perfect prescription and think you really should try it. Just follow these steps: Sleep, eat, take medicine, repeat. You just keep doing that until you feel better. If that doesn’t work, a Nyquil margarita should do the trick. Get well soon.'
+}, { 
+    id: 4086, type: 'text', tags: 'Get Well', title: 'I heard you were still out sick and I’m sorry, but I’ve got to say it. Don’t you think you have been milking this thing long enough? We all know you are just seeking attention. So get yourself out of bed already and rejoin the world. It misses you and so do I. Get well soon.'
+}, { 
+    id: 4087, type: 'text', tags: 'Get Well', title: 'Dear friend, We were all so sad to hear you were in the hospital. We wanted to send our heartfelt best wishes for a speedy recovery. When you laugh, we laugh. When you cry, we cry. When you smile, we smile. And when you fall sick, we feel sick. Get well soon. Nothing is the same without you.'
+}, { 
+    id: 4088, type: 'text', tags: 'Get Well', title: 'I just got the bad news about your illness. It is hard to know what exactly to say at times like this. I just hope my good wishes and prayers will add a bright ray of sunshine to your day, just like how your smiles light up my life. I hope you are feeling better very soon.'
+}, { 
+    id: 4089, type: 'text', tags: 'Get Well', title: 'It is definitely no fun to be sick. But before you go feeling all sorry for yourself, think about it from my perspective. I’ve got no one to go to lunch with. No one to go to the movies with, or out to the mall. No one to gripe with about my job. I mean, I’m the one who is really suffering here. I guess what I’m saying is, please get well soon because I really miss you.'
+}, { 
+    id: 4090, type: 'text', tags: 'Get Well', title: 'I am so sorry you are not well. I would tell you to get well soon, but I’m sure that by the time you read this, you will already be up and around and feeling like your old self. Just know that you are loved, and people are thinking of you and praying for your speedy recovery.'
+}, { 
+    id: 4091, type: 'text', tags: 'Sympathy', title: 'Life can be hard, especially at times like this. I am deeply sorry for your loss. It is beyond words to describe how painful it is to lose someone we love. There are no greater trials and no sorrow more severe. Please count on me to do anything you need to make this time as bearable as possible.'
+}, { 
+    id: 4092, type: 'text', tags: 'Sympathy', title: 'I know that there are no words to express your pain, but I am hoping that mine can at least console you. It is my wish that your heart can eventually be filled with the healing comfort of your memories. There is nothing I can say other than that I am deeply sorry for your loss.'
+}, { 
+    id: 4093, type: 'text', tags: 'Sympathy', title: 'I was deeply sorry to hear of your loss. The pain you are feeling now is unimaginable, but please know that there are many, many people who love you and are willing to show you that you don’t have to go through this alone. If there is anything at all that I can do, please call. I love you.'
+}, { 
+    id: 4094, type: 'text', tags: 'Sympathy', title: 'I hope you know that there are so many of us who wish to be here for you in dealing with your horrible loss. There are so many who share your grief for the soul this world has lost. It is my hope that you can take at least some comfort in knowing that you are not alone in your heartache.'
+}, { 
+    id: 4095, type: 'text', tags: 'Sympathy', title: 'Losing a true friend and beloved partner is never easy. There is nothing I can say to lessen the excruciating pain of your loss. Just know that I am thinking of you, wishing you comfort and peace, and always available to talk if you need to. Deepest condolences, my friend.'
+}, { 
+    id: 4096, type: 'text', tags: 'Sympathy', title: 'Life can be hard, especially at times like this. I am deeply sorry for your loss. It is beyond words to describe how painful it is to lose someone we love. There are no greater trials and no sorrow more severe. Please count on me to do anything you need to make this time as bearable as possible.'
+}, { 
+    id: 4097, type: 'text', tags: 'Sympathy', title: 'I know that there are no words to express your pain, but I am hoping that mine can at least console you. It is my wish that your heart can eventually be filled with the healing comfort of your memories. There is nothing I can say other than that I am deeply sorry for your loss.'
+}, { 
+    id: 4098, type: 'text', tags: 'Sympathy', title: 'I was deeply sorry to hear of your loss. The pain you are feeling now is unimaginable, but please know that there are many, many people who love you and are willing to show you that you don’t have to go through this alone. If there is anything at all that I can do, please call. I love you.'
+}, { 
+    id: 4099, type: 'text', tags: 'Sympathy', title: 'I hope you know that there are so many of us who wish to be here for you in dealing with your horrible loss. There are so many who share your grief for the soul this world has lost. It is my hope that you can take at least some comfort in knowing that you are not alone in your heartache.'
+}, { 
+    id: 4100, type: 'text', tags: 'Sympathy', title: 'Losing a true friend and beloved partner is never easy. There is nothing I can say to lessen the excruciating pain of your loss. Just know that I am thinking of you, wishing you comfort and peace, and always available to talk if you need to. Deepest condolences, my friend.'
+}, { 
+    id: 4101, type: 'text', tags: 'Sympathy', title: 'Please accept our deepest condolences for your devastating loss. As you grieve, please remember that we love and care about you and our thoughts and prayers are with you and your family at this time of overwhelming sorrow. We wish you peace to bring comfort, and courage to face the days ahead.'
+}, { 
+    id: 4102, type: 'text', tags: 'Sympathy', title: 'There is an old Hebrew proverb that says, “Say not in grief ‘he is no more’ but in thankfulness that he was.” I am sure those seem like empty words to you right now, but I hope you will remember them and be comforted by them as time passes. I wish you peace, love and courage during this painful time.'
+}, { 
+    id: 4103, type: 'text', tags: 'Sympathy', title: 'At times like this, people like to say things like everything happens for a reason, that time heals, and that God has another angel in heaven. We say these things because we don’t know what else to say in the face of such terrible loss. I realize there are no words that can help you cope with this pain. Please accept my deepest condolences and know that I am here if you need anything.'
+}, { 
+    id: 4104, type: 'text', tags: 'Sympathy', title: '“We never lose the people we love, even to death. They continue to participate in every act, thought and decision we make. Their love leaves an indelible imprint in our memories. We can find comfort in knowing that our lives have been enriched by having shared their love.” Please accept my deepest condolences for your loss.'
+}, { 
+    id: 4105, type: 'text', tags: 'Sympathy', title: 'Please accept my sincere condolences for your devastating loss. I cannot imagine what you must be feeling right now, but I want you to know that I am just a phone call away if there is anything I can do to help you get through the difficult days ahead.'
+}, { 
+    id: 4106, type: 'text', tags: 'Sympathy', title: 'Please accept our deepest condolences for your devastating loss. As you grieve, please remember that we love and care about you and our thoughts and prayers are with you and your family at this time of overwhelming sorrow. We wish you peace to bring comfort, and courage to face the days ahead.'
+}, { 
+    id: 4107, type: 'text', tags: 'Sympathy', title: 'So sorry to hear about your recent loss. Please know that our thoughts are with you in this difficult time. You may be feeling sorrow right now, but you can rest assured, that with time, all shall pass. Be strong in this tough time, and know that we are here if you need us.'
+}, { 
+    id: 4108, type: 'text', tags: 'Sympathy', title: 'Losing a loved one is a sad event. The people we care for make up the backdrop of our lives. When we lose one, our lives are changed forever. However, the sadness you feel right now will dissipate over time. You will miss them, you will remember them, but your grieving will be over.'
+}, { 
+    id: 4109, type: 'text', tags: 'Sympathy', title: 'Very sorry to hear of your recent bereavement. Please know that our thoughts are with you, and we share your loss during this difficult time. When we have to let a loved one go, we often let the sadness we feel for their partying, overwhelm the happiness we should feel for them giving us so much. So try to think about those good memories, and celebrate the life of a wonderful person, not their passing.'
+}, { 
+    id: 4110, type: 'text', tags: 'Sympathy', title: 'There is an old Hebrew proverb that says, “Say not in grief ‘he is no more’ but in thankfulness that he was.” I am sure those seem like empty words to you right now, but I hope you will remember them and be comforted by them as time passes. I wish you peace, love and courage during this painful time.'
+}, { 
+    id: 4111, type: 'text', tags: 'Sympathy', title: 'At times like this, people like to say things like everything happens for a reason, that time heals, and that God has another angel in heaven. We say these things because we don’t know what else to say in the face of such terrible loss. I realize there are no words that can help you cope with this pain. Please accept my deepest condolences and know that I am here if you need anything.'
+}, { 
+    id: 4112, type: 'text', tags: 'Sympathy', title: '“We never lose the people we love, even to death. They continue to participate in every act, thought and decision we make. Their love leaves an indelible imprint in our memories. We can find comfort in knowing that our lives have been enriched by having shared their love.” Please accept my deepest condolences for your loss.'
+}, { 
+    id: 4113, type: 'text', tags: 'Sympathy', title: 'Please accept my sincere condolences for your devastating loss. I cannot imagine what you must be feeling right now, but I want you to know that I am just a phone call away if there is anything I can do to help you get through the difficult days ahead.'
+}, { 
+    id: 4114, type: 'text', tags: 'Engagement', title: 'I just heard the fabulous news that you’re engaged! The next few months are probably going to be crazy and hectic with gift registries, wedding preparations, honeymoon planning, and bridal showers. It may start to seem overwhelming, but I know you will enjoy every minute of it. Best wishes for a wonderful life together.'
+}, { 
+    id: 4115, type: 'text', tags: 'Engagement', title: 'Congratulations on your engagement. We are so delighted for you both. Whenever we saw the two of you together, it was evident that you are meant for each other. May your love only strengthen and grow as time goes by. I wish you all the best with your wedding plans and for the future.'
+}, { 
+    id: 4116, type: 'text', tags: 'Engagement', title: 'I just got word of your engagement! It was such fantastic news, and I could not be happier for both of you. You are getting ready to embark on a marvellous journey it is my wish that your love will shine brighter, and your companionship deepens with each passing day.'
+}, { 
+    id: 4117, type: 'text', tags: 'Engagement', title: 'Congratulations to both of you for making a commitment to marry. Finding a life partner is one of the most monumental events of our lives. We hope that both of you, together, have found such a life partner. So we raise a glass to a short engagement, and a long marriage!'
+}, { 
+    id: 4118, type: 'text', tags: 'Engagement', title: 'When two decide to become one, it is a great time for celebration. Making a commitment to another person is a huge undertaking that takes compassion, understanding and empathy. You both have each of these attributes in abundance, so you are sure to work out well as a couple.'
+}, { 
+    id: 4119, type: 'text', tags: 'Engagement', title: 'Sending both of you, our sincere congratulations on your recent engagement. You make a lovely couple, and we are sure that you have a great life together ahead of you. Engagement is like a trial run for marriage, a trial we are sure you will pass with flying colours!'
+}, { 
+    id: 4120, type: 'text', tags: 'Engagement', title: 'I was so excited and delighted to receive the news of your recent engagement. You two are such a sweet and loving couple, and I am completely confident that you will have a wonderful life together. May you have a world of happiness and joy on your wedding day. Congratulations!'
+}, { 
+    id: 4121, type: 'text', tags: 'Engagement', title: 'I just heard the great news. You’re engaged! This is so exciting, and I could not be happier or more thrilled for the both of you. You make a great couple, and I wish you a wonderful life together filled with lots of joy and happiness. Keep loving each other and congratulations.'
+}, { 
+    id: 4122, type: 'text', tags: 'Engagement', title: 'I was wondering when the two of you would finally come to your senses and realize you belong together. You two are so great together, and we are all so thrilled for you. Soon your lives will be forever entwined. Wishing you love, peace, happiness and joy as you embark on this new journey.'
+}, { 
+    id: 4123, type: 'text', tags: 'Engagement', title: 'You’re engaged! This is such fantastic news. We are really excited for you and know you will have a great future together. May the coming months be as stress-free as possible with the lead-up to your wedding. Please let me know if you need any help along the way with your wedding plans.'
+}, { 
+    id: 4124, type: 'text', tags: 'Engagement', title: 'I just heard! Excellent news! I’m so excited that you’ve decided to take this next step in your relationship. I’m sure it’s a little scary for you, it definitely was for me when I got engaged, but relax in the comfort of knowing that you belong together. May your future be a bright and happy one.'
+}, { 
+    id: 4125, type: 'text', tags: 'Engagement', title: 'Congratulations on finally deciding to settle down, dude! We were all wondering when you were going to take the plunge. You two are obviously meant to be together, and we could not be more excited for you. May this be the beginning of a lifetime filled with joy and love.'
+}, { 
+    id: 4126, type: 'text', tags: 'Engagement', title: 'I just heard the fabulous news that you’re engaged! The next few months are probably going to be crazy and hectic with gift registries, wedding preparations, honeymoon planning, and bridal showers. It may start to seem overwhelming, but I know you will enjoy every minute of it. Best wishes for a wonderful life together.'
+}, { 
+    id: 4127, type: 'text', tags: 'Engagement', title: 'Congratulations on your engagement. We are so delighted for you both. Whenever we saw the two of you together, it was evident that you are meant for each other. May your love only strengthen and grow as time goes by. I wish you all the best with your wedding plans and for the future.'
+}, { 
+    id: 4128, type: 'text', tags: 'Engagement', title: 'I just got word of your engagement! It was such fantastic news, and I could not be happier for both of you. You are getting ready to embark on a marvellous journey it is my wish that your love will shine brighter, and your companionship deepens with each passing day.'
+}, { 
+    id: 4129, type: 'text', tags: 'Engagement', title: 'I was so excited and delighted to receive the news of your recent engagement. You two are such a sweet and loving couple, and I am completely confident that you will have a wonderful life together. May you have a world of happiness and joy on your wedding day. Congratulations!'
+}, { 
+    id: 4130, type: 'text', tags: 'Engagement', title: 'I just heard the great news. You’re engaged! This is so exciting, and I could not be happier or more thrilled for the both of you. You make a great couple, and I wish you a wonderful life together filled with lots of joy and happiness. Keep loving each other and congratulations.'
+}, { 
+    id: 4131, type: 'text', tags: 'Engagement', title: 'I was wondering when the two of you would finally come to your senses and realize you belong together. You two are so great together, and we are all so thrilled for you. Soon your lives will be forever entwined. Wishing you love, peace, happiness and joy as you embark on this new journey.'
+}, { 
+    id: 4132, type: 'text', tags: 'Engagement', title: 'You’re engaged! This is such fantastic news. We are really excited for you and know you will have a great future together. May the coming months be as stress-free as possible with the lead-up to your wedding. Please let me know if you need any help along the way with your wedding plans.'
+}, { 
+    id: 4133, type: 'text', tags: 'Engagement', title: 'I just heard! Excellent news! I’m so excited that you’ve decided to take this next step in your relationship. I’m sure it’s a little scary for you, it definitely was for me when I got engaged, but relax in the comfort of knowing that you belong together. May your future be a bright and happy one.'
+}, { 
+    id: 4134, type: 'text', tags: 'Engagement', title: 'Congratulations on finally deciding to settle down, dude! We were all wondering when you were going to take the plunge. You two are obviously meant to be together, and we could not be more excited for you. May this be the beginning of a lifetime filled with joy and love.'
+}, { 
+    id: 4135, type: 'text', tags: 'Engagement', title: 'Congratulations and best wishes to the happy couple! May your future be bright and filled to overflowing with the richest blessings. May your love grow each day as your wedding approaches and may you live a lifetime together in happiness and joy.'
+}, { 
+    id: 4136, type: 'text', tags: 'Wedding', title: 'Marriage is about love, care, respect, and sharing. Congratulations to both of you for finding your perfect soul mates. May this beautiful day be the start of a blissful and exciting life together. Happy wedding. Stay blessed and may the bond of your love be strengthened at all times.'
+}, { 
+    id: 4137, type: 'text', tags: 'Wedding', title: 'On your wedding day, we are witness to the most beautiful sight in the world, a couple as perfect as you committing to spend their lives with each other. Congratulations and best wishes for your future. May your married life be filled with fun, love, joy, and laughter.'
+}, { 
+    id: 4138, type: 'text', tags: 'Wedding', title: 'Wishing you both all the best on this very special day, as you take your marriage vows. When two people make a commitment to spend the rest of their lives together, this is a wonderful thing. So let’s raise a glass to a long, fruitful and happy marriage for both of you.'
+}, { 
+    id: 4139, type: 'text', tags: 'Wedding', title: 'Marriage is a wonderful thing. Two people deciding that they want to be together, and letting the whole world know by getting married. So congratulations on your big day. May you have many years of happy marriage ahead of you, and enjoy each other’s company every day of your lives.'
+}, { 
+    id: 4140, type: 'text', tags: 'Wedding', title: 'Sending you our most heartfelt congratulations on the day of your wedding. We are happy to see two such amazing people finally tie the knot. We are sure you will be a very happy couple, and enjoy a better future, in the company of somebody you truly love.'
+}, { 
+    id: 4142, type: 'text', tags: 'Wedding', title: 'Thank you for giving me the honour of witnessing your wedding vows. I wish you both a great life ahead, which is filled with love, care, and respect. May God bless the two of you as you commence your wonderful new journey of love and commitment. Best wishes for the future.'
+}, { 
+    id: 4143, type: 'text', tags: 'Wedding', title: 'Congratulations on your wedding! You two have been among my closest friends. I know you are so happy to be getting married, and I can’t think of any two people who deserve it more. May happiness find you in every corner of the globe as you begin your new life together.'
+}, { 
+    id: 4144, type: 'text', tags: 'Wedding', title: 'The words “I do” bind two hearts for a lifetime. Congratulations on your wedding day. You are such a lovely couple, and you deserve a lifetime of happiness with one another. I am so grateful you invited me to share in your joy. I offer you best wishes for a beautiful future together.'
+}, { 
+    id: 4145, type: 'text', tags: 'Wedding', title: 'I am so blessed, honoured and glad to congratulate you on such an important and meaningful event. Marriage is a sacred oath between two people that binds their hearts together for eternity. May your married life with blessed and filled with all things wonderful and good. A happy wedding day to you both.'
+}, { 
+    id: 4146, type: 'text', tags: 'Wedding', title: 'Congratulations on tying the knot, getting hitched, buying the cow, jumping the broom, taking the plunge, going to the chapel, dropping the anchor, settling down, saying I do, taking the vows, and walking down the aisle. Thanks for inviting me to the grand shindig and best of luck to you both.'
+}, { 
+    id: 4147, type: 'text', tags: 'Wedding', title: 'Ecclesiastes 4:9-12 “Two are better than one because they have a good return for their labour: If either of them falls down, one can help the other up. But pity anyone who falls and has no one to help them up. Also, if two lie down together, they will keep warm. But how can one keep warm alone? Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken.” Best wishes for a beautiful wedding.'
+}, { 
+    id: 4148, type: 'text', tags: 'Wedding', title: 'All weddings are a magical event, as two hearts join to become one. May the sunshine of happiness always break out from the clouds of misunderstandings to form a rainbow of love in your timeless marriage. Congratulations on a beautiful wedding. Best wishes for a lifetime of companionship and bliss.'
+}, { 
+    id: 4149, type: 'text', tags: 'Wedding', title: 'Marriage is about love, care, respect, and sharing. Congratulations to both of you for finding your perfect soul mates. May this beautiful day be the start of a blissful and exciting life together. Happy wedding. Stay blessed and may the bond of your love be strengthened at all times.'
+}, { 
+    id: 4150, type: 'text', tags: 'Wedding', title: 'On your wedding day, we are witness to the most beautiful sight in the world, a couple as perfect as you committing to spend their lives with each other. Congratulations and best wishes for your future. May your married life be filled with fun, love, joy, and laughter.'
+}, { 
+    id: 4151, type: 'text', tags: 'Wedding', title: 'Thank you for giving me the honour of witnessing your wedding vows. I wish you both a great life ahead, which is filled with love, care, and respect. May God bless the two of you as you commence your wonderful new journey of love and commitment. Best wishes for the future.'
+}, { 
+    id: 4152, type: 'text', tags: 'Wedding', title: 'Congratulations on your wedding! You two have been among my closest friends. I know you are so happy to be getting married, and I can’t think of any two people who deserve it more. May happiness find you in every corner of the globe as you begin your new life together.'
+}, { 
+    id: 4153, type: 'text', tags: 'Wedding', title: 'The words “I do” bind two hearts for a lifetime. Congratulations on your wedding day. You are such a lovely couple, and you deserve a lifetime of happiness with one another. I am so grateful you invited me to share in your joy. I offer you best wishes for a beautiful future together.'
+}, { 
+    id: 4154, type: 'text', tags: 'Wedding', title: 'I am so blessed, honoured and glad to congratulate you on such an important and meaningful event. Marriage is a sacred oath between two people that binds their hearts together for eternity. May your married life with blessed and filled with all things wonderful and good. A happy wedding day to you both.'
+}, { 
+    id: 4155, type: 'text', tags: 'Wedding', title: 'Congratulations on tying the knot, getting hitched, buying the cow, jumping the broom, taking the plunge, going to the chapel, dropping the anchor, settling down, saying I do, taking the vows, and walking down the aisle. Thanks for inviting me to the grand shindig and best of luck to you both.'
+}, { 
+    id: 4156, type: 'text', tags: 'Wedding', title: 'Ecclesiastes 4:9-12 “Two are better than one because they have a good return for their labour: If either of them falls down, one can help the other up. But pity anyone who falls and has no one to help them up. Also, if two lie down together, they will keep warm. But how can one keep warm alone? Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken.” Best wishes for a beautiful wedding.'
+}, { 
+    id: 4157, type: 'text', tags: 'Wedding', title: 'All weddings are a magical event, as two hearts join to become one. May the sunshine of happiness always break out from the clouds of misunderstandings to form a rainbow of love in your timeless marriage. Congratulations on a beautiful wedding. Best wishes for a lifetime of companionship and bliss.'
+}, { 
+    id: 4158, type: 'text', tags: 'Wedding', title: 'A loving note can scarcely express how happy I am that you two have found one other and have decided to join together in holy marriage. I wish for both of the most joyful married life, filled with smiles, laughter, passion, tenderness and love. Have a wonderful wedded life.'
+}, { 
+    id: 4159, type: 'text', tags: 'Bridal Shower' title: 'Marriage is about love, care, respect, and sharing. Congratulations to both of you for finding your perfect soul mates. May this beautiful day be the start of a blissful and exciting life together. Happy wedding. Stay blessed and may the bond of your love be strengthened at all times.' 
+}, { 
+    id: 4160, type: 'text', tags: 'Bridal Shower' title: 'On your wedding day, we are witness to the most beautiful sight in the world, a couple as perfect as you committing to spend their lives with each other. Congratulations and best wishes for your future. May your married life be filled with fun, love, joy, and laughter.' 
+}, { 
+    id: 4161, type: 'text', tags: 'Bridal Shower' title: 'Congratulations on your forthcoming marriage, and my hopes that you have a great day at your own bridal shower. Soon you will be married, and your single life will be over. So let’s enjoy this day, and celebrate your life before marriage, as you prepare to take the next step on your journey.' 
+}, { 
+    id: 4162, type: 'text', tags: 'Bridal Shower' title: 'How does it feel organising your own bridal shower? Are you ready to take that big step in becoming a married woman? Your life will change once you do, but you need to know that I will still be that same friend I have always been. I wish you all the luck in the world in your new life.' 
+}, { 
+    id: 4163, type: 'text', tags: 'Bridal Shower' title: 'Marriage is about love, care, respect, and sharing. Congratulations to both of you for finding your perfect soul mates. May this beautiful day be the start of a blissful and exciting life together. Happy wedding. Stay blessed and may the bond of your love be strengthened at all times.' 
+}, { 
+    id: 4164, type: 'text', tags: 'Bridal Shower' title: 'On your wedding day, we are witness to the most beautiful sight in the world, a couple as perfect as you committing to spend their lives with each other. Congratulations and best wishes for your future. May your married life be filled with fun, love, joy, and laughter.' 
+}, { 
+    id: 4165, type: 'text', tags: 'Bridal Shower' title: 'Thank you for giving me the honour of witnessing your wedding vows. I wish you both a great life ahead, which is filled with love, care, and respect. May God bless the two of you as you commence your wonderful new journey of love and commitment. Best wishes for the future.' 
+}, { 
+    id: 4166, type: 'text', tags: 'Bridal Shower' title: 'Congratulations on your wedding! You two have been among my closest friends. I know you are so happy to be getting married, and I can’t think of any two people who deserve it more. May happiness find you in every corner of the globe as you begin your new life together.' 
+}, { 
+    id: 4167, type: 'text', tags: 'Bridal Shower' title: 'The words “I do” bind two hearts for a lifetime. Congratulations on your wedding day. You are such a lovely couple, and you deserve a lifetime of happiness with one another. I am so grateful you invited me to share in your joy. I offer you best wishes for a beautiful future together.' 
+}, { 
+    id: 4168, type: 'text', tags: 'Bridal Shower' title: 'I am so blessed, honoured and glad to congratulate you on such an important and meaningful event. Marriage is a sacred oath between two people that binds their hearts together for eternity. May your married life with blessed and filled with all things wonderful and good. A happy wedding day to you both.' 
+}, { 
+    id: 4169, type: 'text', tags: 'Bridal Shower' title: 'Congratulations on tying the knot, getting hitched, buying the cow, jumping the broom, taking the plunge, going to the chapel, dropping anchor, settling down, saying I do, taking the vows, and walking down the aisle. Thanks for inviting me to the grand shindig and best of luck to you both.' 
+}, { 
+    id: 4170, type: 'text', tags: 'Bridal Shower' title: 'All weddings are a magical event, as two hearts join to become one. May the sunshine of happiness always break out from the clouds of misunderstandings to form a rainbow of love in your timeless marriage. Congratulations on a beautiful wedding. Best wishes for a lifetime of companionship and bliss.' 
+}, { 
+    id: 4171, type: 'text', tags: 'Bridal Shower' title: 'Thanks for inviting me to your kitchen tea. I am really pleased to be celebrating your impending wedding with you. It is so nice to be able to take this day, and celebrate your life before marriage, and to help you prepare for your life after the wedding.' 
+}, { 
+    id: 4172, type: 'text', tags: 'Bridal Shower' title: 'Thank you for giving me the honour of witnessing your wedding vows. I wish you both a great life ahead, which is filled with love, care, and respect. May God bless the two of you as you commence your wonderful new journey of love and commitment. Best wishes for the future.' 
+}, { 
+    id: 4173, type: 'text', tags: 'Bridal Shower' title: 'Congratulations on your wedding! You two have been among my closest friends. I know you are so happy to be getting married, and I can’t think of any two people who deserve it more. May happiness find you in every corner of the globe as you begin your new life together.' 
+}, { 
+    id: 4174, type: 'text', tags: 'Bridal Shower' title: 'The words “I do” bind two hearts for a lifetime. Congratulations on your wedding day. You are such a lovely couple, and you deserve a lifetime of happiness with one another. I am so grateful you invited me to share in your joy. I offer you best wishes for a beautiful future together.' 
+}, { 
+    id: 4175, type: 'text', tags: 'Bridal Shower' title: 'I am so blessed, honoured and glad to congratulate you on such an important and meaningful event. Marriage is a sacred oath between two people that binds their hearts together for eternity. May your married life with blessed and filled with all things wonderful and good. A happy wedding day to you both.' 
+}, { 
+    id: 4176, type: 'text', tags: 'Bridal Shower' title: 'Congratulations on tying the knot, getting hitched, buying the cow, jumping the broom, taking the plunge, going to the chapel, dropping anchor, settling down, saying I do, taking the vows, and walking down the aisle. Thanks for inviting me to the grand shindig and best of luck to you both.' 
+}, { 
+    id: 4177, type: 'text', tags: 'Bridal Shower' title: 'All weddings are a magical event, as two hearts join to become one. May the sunshine of happiness always break out from the clouds of misunderstandings to form a rainbow of love in your timeless marriage. Congratulations on a beautiful wedding. Best wishes for a lifetime of companionship and bliss.' 
+}, { 
+    id: 4178, type: 'text', tags: 'Congratulations' title: 'Congratulations on your remarkable achievement! We are all so proud of you. With enthusiasm and hard work like yours, you were bound to be successful in anything you wanted to do. Heartiest congratulations to you for a job well done. May you continue to soar to higher and higher heights.'
+}, { 
+    id: 4179, type: 'text', tags: 'Congratulations' title: 'Your road was tough, but you persevered, and you never lost your faith and courage. You have earned all of your success. Please accept my wholehearted congratulations. Keep up the good work. I want you to know that you will always have my love, support, encouragement and admiration. Way to go!'
+}, { 
+    id: 4180, type: 'text', tags: 'Congratulations' title: 'I just wanted to send you this short message, to say congratulations. It is important that at times like this, we step back and appreciate the good fortune that life sometimes brings us. So once again, I send my sincere congratulations, may lady luck continue to smile on you.'
+}, { 
+    id: 4181, type: 'text', tags: 'Congratulations' title: 'Congratulations on your remarkable achievement! We are all so proud of you. With enthusiasm and hard work like yours, you were bound to be successful in anything you wanted to do. Heartiest congratulations to you for a job well done. May you continue to soar to higher and higher heights.'
+}, { 
+    id: 4182, type: 'text', tags: 'Congratulations' title: 'Your road was tough, but you persevered, and you never lost your faith and courage. You have earned all of your success. Please accept my wholehearted congratulations. Keep up the good work. I want you to know that you will always have my love, support, encouragement and admiration. Way to go!'
+}, { 
+    id: 4183, type: 'text', tags: 'Congratulations' title: 'Hats off to you! What a fantastic accomplishment. I never doubted you would achieve great things in life. You character, composure, focus, and courage have earned you this success, and I hope you can now savour the rewards of your achievement. Congratulations and keep on moving forward. I can’t wait to see what you attain next.'
+}, { 
+    id: 4184, type: 'text', tags: 'Congratulations' title: 'Wow! You have made us all so proud. We always knew you were going to achieve great things in life. Someone as smart as you, with as much courage and perseverance as you have, was bound to succeed. Keep it up because the sky is the limit for you. Congratulations on your success!'
+}, { 
+    id: 4185, type: 'text', tags: 'Congratulations' title: 'Congratulations! I am so very proud of you. I can’t say I’m surprised because I always knew you had it in you to achieve whatever you set your mind to. The thing to do now is to enjoy all the rewards of this success and then jump right back up and achieve your next goal. Congratulations again!'
+}, { 
+    id: 4186, type: 'text', tags: 'Congratulations' title: 'Congratulations. I always knew you were a rock star who could accomplish anything you wanted in life, and now you’ve gone and done it. Way to go and hats off to you. You worked hard, you kept your eye on the prize, you never lost your courage, and you came out victorious.'
+}, { 
+    id: 4187, type: 'text', tags: 'Congratulations' title: 'Facing challenges with strength, determination and confidence are what matters, and you have done it! Congratulations from someone who knows how hard you worked and how difficult it was at times to keep going. Now you can enjoy the rewards you so richly deserve. Congrats again on your accomplishment.'
+}, { 
+    id: 4188, type: 'text', tags: 'Congratulations' title: 'Success comes to those who work for it. Your success has been nothing short of inspirational for the whole family. I was always confident of your ability to shoulder your responsibilities with fortitude, and you continue to motivate all of us with your achievements. Congratulations from the whole family.'
+}, { 
+    id: 4189, type: 'text', tags: 'Congratulations' title: 'I have always admired your enthusiastic approach to life. Since you were a child, I have watched as you have fearlessly tackled challenge after challenge, and approached everything you do with a sense of adventure.  Congratulations on your latest achievement and I cannot wait to see what you do next.'
+}, { 
+    id: 4190, type: 'text', tags: 'Congratulations' title: '“Courage is not the absence of fear, but the willingness to proceed in spite of it.” I have watched you face challenges with courage your whole life, so I was not at all surprised to hear about your latest achievement. Thank you for continuing to inspire and motivate all of us to courageously follow our dreams. Well done!'
+}, { 
+    id: 4191, type: 'text', tags: 'Congratulations' title: 'Congratulations! Fortune has favoured you, and this is a great time to celebrate. Life has its ups and downs, so it is important that at a time like this, we stop and take a look-back. Good times like this make the bad times bearable, so enjoy it!'
+}, { 
+    id: 4192, type: 'text', tags: 'Congratulations' title: 'Greetings, and sincere congratulations! Sometimes life throws something nice at us, and this is just what has happened to you. Enjoy the moment, and congratulate yourself on all you did to get to this stage. You worked hard, and it has finally paid off. You deserve this, so well done.'
+}, { 
+    id: 4193, type: 'text', tags: 'Congratulations' title: 'Hats off to you! What a fantastic accomplishment. I never doubted you would achieve great things in life. You character, composure, focus, and courage have earned you this success, and I hope you can now savour the rewards of your achievement. Congratulations and keep on moving forward. I can’t wait to see what you attain next.'
+}, { 
+    id: 4194, type: 'text', tags: 'Congratulations' title: 'Wow! You have made us all so proud. We always knew you were going to achieve great things in life. Someone as smart as you, with as much courage and perseverance as you have, was bound to succeed. Keep it up because the sky is the limit for you. Congratulations on your success!'
+}, { 
+    id: 4195, type: 'text', tags: 'Congratulations' title: 'Congratulations! I am so very proud of you. I can’t say I’m surprised because I always knew you had it in you to achieve whatever you set your mind to. The thing to do now is to enjoy all the rewards of this success and then jump right back up and achieve your next goal. Congratulations again!'
+}, { 
+    id: 4196, type: 'text', tags: 'Congratulations' title: 'Congratulations. I always knew you were a rock star who could accomplish anything you wanted in life, and now you’ve gone and done it. Way to go and hats off to you. You worked hard, you kept your eye on the prize, you never lost your courage, and you came out victorious.'
+}, { 
+    id: 4197, type: 'text', tags: 'Congratulations  Facing challenges with strength, determination and confidence are what matters, and you have done it! Congratulations from someone who knows how hard you worked and how difficult it was at times to keep going. Now you can enjoy the rewards you so richly deserve. Congrats again on your accomplishment.'
+}, { 
+    id: 4198, type: 'text', tags: 'Congratulations  Success comes to those who work for it. Your success has been nothing short of inspirational for the whole family. I was always confident of your ability to shoulder your responsibilities with fortitude, and you continue to motivate all of us with your achievements. Congratulations from the whole family.'
+}, { 
+    id: 4199, type: 'text', tags: 'Congratulations  I have always admired your enthusiastic approach to life. Since you were a child, I have watched as you have fearlessly tackled challenge after challenge, and approached everything you do with a sense of adventure. Congratulations on your latest achievement and I cannot wait to see what you do next.'
 }];
 
 var propertySettings = [{
