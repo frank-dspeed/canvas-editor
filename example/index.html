@@ -1,14 +1,249 @@
 <html>
 <head>
+<script type="text/javascript" src="http://www.concretejs.com/versions/0.1.0/concrete.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
+
+
 
 <script>
+function drawSceneCircles() {
+  circles.forEach(function(circle) {
+    drawSceneCircle(circle);
+  });
+}
 
+function drawHitCircles() {
+  circles.forEach(function(circle) {
+    drawHitCircle(circle);
+  });
+}
+
+function drawSceneCircle(config) {
+  var canvas = config.layer.sceneCanvas,
+      context = canvas.context;
+
+  canvas.clear();
+  context.save();
+  context.beginPath();
+  context.arc(config.x, config.y, 60, 0, Math.PI * 2, false);
+  context.fillStyle = config.color;
+  context.fill();
+
+  if (config.selected) {
+    context.strokeStyle = 'black';
+    context.lineWidth = 6;
+    context.stroke();
+  }
+
+  if (config.hovered) {
+    context.strokeStyle = 'green';
+    context.lineWidth = 2;
+    context.stroke();
+  }
+  context.restore();
+}
+
+function drawHitCircle(config) {
+  var canvas = config.layer.hitCanvas,
+      context = canvas.context;
+
+  canvas.clear();
+  context.save();
+  context.beginPath();
+  context.arc(config.x, config.y, 60, 0, Math.PI * 2, false);
+  context.fillStyle = canvas.getColorFromKey(config.key);
+  context.fill();
+  context.restore();
+}
+
+function getSelectedCircle() {
+  var len = circles.length,
+      n, circle;
+
+  for (n = 0; n < len; n++) {
+    circle = circles[n];
+    if (circle.selected) {
+      return circle;
+    }
+  }
+
+  return null;
+}
+
+function destroyCircle(key) {
+  var len = circles.length,
+      n, circle;
+
+  for (n = 0; n < len; n++) {
+    circle = circles[n];
+    if (circle.key === key) {
+      circles.splice(n, 1);
+      drawSceneCircles();
+      drawHitCircles();
+      return true;
+    }
+  }
+
+  return false;
+}
+
+var concreteContainer = document.getElementById('concreteContainer');
+
+// create wrapper
+var wrapper = new Concrete.Wrapper({
+  width: 400,
+  height: 200,
+  container: concreteContainer
+});
+
+// create layers
+var layer1 = new Concrete.Layer();
+var layer2 = new Concrete.Layer();
+var layer3 = new Concrete.Layer();
+
+// add layers
+wrapper.add(layer1).add(layer2).add(layer3);
+
+// create a scene graph (you don't need a scene graph for Concrete, but in this
+// example we will use one
+var circles = [
+  {
+    x: wrapper.width / 2,
+    y: wrapper.height * 2 / 3,
+    hovered: false,
+    selected: true,
+    layer: layer1,
+    color: 'red',
+    key: 'red'
+  }, {
+    x: wrapper.width * 2 / 5,
+    y: wrapper.height / 3,
+    hovered: false,
+    selected: false,
+    layer: layer2,
+    color: 'yellow',
+    key: 'yellow'
+  }, {
+    x: wrapper.width * 3 / 5,
+    y: wrapper.height / 3,
+    hovered: false,
+    selected: false,
+    layer: layer3,
+    color: 'orange',
+    key: 'orange'
+  }
+];
+
+// for convenience, make the circles array also a hash
+circles.forEach(function(circle) {
+  circles[circle.key] = circle;
+});
+
+// draw circles onto hit canvases for mouse detection
+drawHitCircles();
+
+// draw visible circles
+drawSceneCircles();
+
+// add concrete container handlers
+concreteContainer.addEventListener('mousemove', _.throttle(function(evt) {
+  var boundingRect = concreteContainer.getBoundingClientRect(),
+      x = evt.clientX - boundingRect.left,
+      y = evt.clientY - boundingRect.top,
+      key = wrapper.getIntersection(x, y),
+      circle;
+
+  // unhover all circles
+  circles.forEach(function(circle) {
+    circle.hovered = false;
+  });
+
+  if (key) {
+    circles[key].hovered = true;
+  }
+
+  drawSceneCircles();
+}, 50));
+
+concreteContainer.addEventListener('click', function(evt) {
+  var boundingRect = concreteContainer.getBoundingClientRect(),
+      x = evt.clientX - boundingRect.left,
+      y = evt.clientY - boundingRect.top,
+      key = wrapper.getIntersection(x, y),
+      circle;
+
+  // unhover all circles
+  circles.forEach(function(circle) {
+    circle.selected = false;
+  });
+
+  if (key) {
+    circles[key].selected = true;
+  }
+
+  drawSceneCircles();
+});
+
+// add button handlers
+document.getElementById('moveUp').addEventListener('click', function() {
+  var circle = getSelectedCircle();
+
+  if (circle) {
+    circle.layer.moveUp();
+  }
+});
+
+document.getElementById('moveDown').addEventListener('click', function() {
+  var circle = getSelectedCircle();
+
+  if (circle) {
+    circle.layer.moveDown();
+  }
+});
+
+document.getElementById('moveToTop').addEventListener('click', function() {
+  var circle = getSelectedCircle();
+
+  if (circle) {
+    circle.layer.moveToTop();
+  }
+});
+
+document.getElementById('moveToBottom').addEventListener('click', function() {
+  var circle = getSelectedCircle();
+
+  if (circle) {
+    circle.layer.moveToBottom();
+  }
+});
+
+document.getElementById('destroy').addEventListener('click', function() {
+  var circle = getSelectedCircle();
+
+  if (circle) {
+    circle.layer.destroy();
+  }
+});
+
+document.getElementById('download').addEventListener('click', function() {
+  wrapper.toCanvas().download({
+    fileName: 'three-circles.png'
+  });
+});
 </script>
 
 
 
 </head>
 <body>
-<div id="workplace"> </div>
+<div id="controls">
+  <button id="moveUp">Move selected up</button>
+  <button id="moveDown">Move selected down</button>
+  <button id="moveToTop">Move selected to top</button>
+  <button id="moveToBottom">Move selected to bottom</button>
+  <button id="destroy">Destroy selected</button>
+  <button id="download">Download</button>
+</div>
+<div id="concreteContainer"></div>
 </body>
 </html>
