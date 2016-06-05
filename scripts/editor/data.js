@@ -1105,13 +1105,13 @@
 }, { 
     id: 4158, type: 'text', tags: 'Wedding', title: 'A loving note can scarcely express how happy I am that you two have found one other and have decided to join together in holy marriage. I wish for both of the most joyful married life, filled with smiles, laughter, passion, tenderness and love. Have a wonderful wedded life.'
 }, { 
-    id: 4159, type: 'text', tags: 'Bridal Shower', title: 'Marriage is about love, care, respect, and sharing. Congratulations to both of you for finding your perfect soul mates. May this beautiful day be the start of a blissful and exciting life together. Happy wedding. Stay blessed and may the bond of your love be strengthened at all times.' 
+    id: 4159, type: 'text', tags: 'Bridal Shower', title: 'Marriage is about love, care, respect, and sharing. Congratulations to both of you for finding your perfect soul mates. May this beautiful day be the start of a blissful and exciting life together. Happy wedding. Stay blessed and may the bond of your love be strengthened at all times.'
 }, { 
-    id: 4160, type: 'text', tags: 'Bridal Shower', title: 'On your wedding day, we are witness to the most beautiful sight in the world, a couple as perfect as you committing to spend their lives with each other. Congratulations and best wishes for your future. May your married life be filled with fun, love, joy, and laughter.' 
+    id: 4160, type: 'text', tags: 'Bridal Shower', title: 'On your wedding day, we are witness to the most beautiful sight in the world, a couple as perfect as you committing to spend their lives with each other. Congratulations and best wishes for your future. May your married life be filled with fun, love, joy, and laughter.'
 }, { 
-    id: 4161, type: 'text', tags: 'Bridal Shower', title, 'Congratulations on your forthcoming marriage, and my hopes that you have a great day at your own bridal shower. Soon you will be married, and your single life will be over. So let’s enjoy this day, and celebrate your life before marriage, as you prepare to take the next step on your journey.' 
+    id: 4161, type: 'text', tags: 'Bridal Shower', title, 'Congratulations on your forthcoming marriage, and my hopes that you have a great day at your own bridal shower. Soon you will be married, and your single life will be over. So let’s enjoy this day, and celebrate your life before marriage, as you prepare to take the next step on your journey.'
 }, { 
-    id: 4162, type: 'text', tags: 'Bridal Shower', title: 'How does it feel organising your own bridal shower? Are you ready to take that big step in becoming a married woman? Your life will change once you do, but you need to know that I will still be that same friend I have always been. I wish you all the luck in the world in your new life.' 
+    id: 4162, type: 'text', tags: 'Bridal Shower', title: 'How does it feel organising your own bridal shower? Are you ready to take that big step in becoming a married woman? Your life will change once you do, but you need to know that I will still be that same friend I have always been. I wish you all the luck in the world in your new life.'
 }, { 
     id: 4163, type: 'text', tags: 'Bridal Shower', title: 'Marriage is about love, care, respect, and sharing. Congratulations to both of you for finding your perfect soul mates. May this beautiful day be the start of a blissful and exciting life together. Happy wedding. Stay blessed and may the bond of your love be strengthened at all times.' 
 }, { 
