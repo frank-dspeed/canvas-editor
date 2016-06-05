@@ -1109,7 +1109,7 @@
 }, { 
     id: 4160, type: 'text', tags: 'Bridal Shower', title: 'On your wedding day, we are witness to the most beautiful sight in the world, a couple as perfect as you committing to spend their lives with each other. Congratulations and best wishes for your future. May your married life be filled with fun, love, joy, and laughter.'
 }, { 
-    id: 4161, type: 'text', tags: 'Bridal Shower', title, 'Congratulations on your forthcoming marriage, and my hopes that you have a great day at your own bridal shower. Soon you will be married, and your single life will be over. So let’s enjoy this day, and celebrate your life before marriage, as you prepare to take the next step on your journey.'
+    id: 4161, type: 'text', tags: 'Bridal Shower', title: 'Congratulations on your forthcoming marriage, and my hopes that you have a great day at your own bridal shower. Soon you will be married, and your single life will be over. So let’s enjoy this day, and celebrate your life before marriage, as you prepare to take the next step on your journey.'
 }, { 
     id: 4162, type: 'text', tags: 'Bridal Shower', title: 'How does it feel organising your own bridal shower? Are you ready to take that big step in becoming a married woman? Your life will change once you do, but you need to know that I will still be that same friend I have always been. I wish you all the luck in the world in your new life.'
 }, { 
