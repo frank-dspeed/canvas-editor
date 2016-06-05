@@ -156,25 +156,15 @@ myCanvas.addLayer( {
 	    <canvas id="myCard" width="578" height="300"></canvas>
     <script>
       var canvas = document.getElementById('myCard');
-      var context = canvas.getContext('2d');
-
-      // begin custom shape
-      context.beginPath();
-      context.moveTo(170, 80);
-      context.bezierCurveTo(133.67601,595.32523 -39.247439,-39.32271 0,-166.39158 0,-166.39159 245.036959,0 245.03696,0 40.67731,40.75003 40.67734,40.75003 0,164.96425 0,164.96426 -246.46685,0 -246.46684,0 -39.24744,-39.32269)
-
-      context.bezierCurveTo(130, 100, 130, 150, 230, 150);
-      context.bezierCurveTo(250, 180, 320, 180, 340, 150);
-      context.bezierCurveTo(420, 150, 420, 120, 390, 100);
-      context.bezierCurveTo(430, 40, 370, 30, 340, 50);
-      context.bezierCurveTo(320, 5, 250, 20, 250, 50);
-      context.bezierCurveTo(200, 5, 150, 20, 170, 80);
-
-      // complete custom shape
-      context.closePath();
-      context.lineWidth = 5;
-      context.strokeStyle = 'blue';
-      context.stroke();
+	
+	  var ctx = canvas.getContext('2d');
+	  ctx.strokeStyle = '#000';
+	  ctx.lineWidth = 1;
+	  ctx.fillStyle = '#000'
+	
+	  var p = new Path2D("m 132.25001,596.31407 -40.249996,-40.45285 0,-166.92808 0,-166.92808 247.837296,0 247.8373,0 40.1627,40.02387 40.1627,40.02387 0,167.47613 0,167.47613 -247.75,-0.11907 -247.75,-0.11908 -40.25,-40.45284 z m 534.75,-127.05438 0,-166.74537 -39.7453,-39.75463 -39.7453,-39.75463 -247.2547,0 -247.254696,0 0,166.24543 0,166.24542 40.245396,40.25458 40.2453,40.25457 246.7547,0 246.7546,0 0,-166.74537 z");
+	  ctx.stroke(p);
+	  ctx.fill(p);
     </script>
 	
 	</body>
