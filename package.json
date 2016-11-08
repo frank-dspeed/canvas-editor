@@ -9,12 +9,12 @@
     }
   ],
   "dependencies": {
-    "connect": "3.0.1",
-    "express": "4.13.1",
-    "minimist": "1.1.0",
-    "serve-static": "1.8.0",
-    "socketcluster": "4.x.x",
-    "socketcluster-client": "4.x.x"
+    "connect": "3.5.0",
+    "express": "4.14.0",
+    "minimist": "1.2.0",
+    "serve-static": "1.11.1",
+    "socketcluster": "^5.0.18",
+    "socketcluster-client": "^5.0.18"
   },
   "keywords": [
     "websocket",
