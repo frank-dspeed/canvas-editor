@@ -12,7 +12,7 @@
     "connect": "3.5.0",
     "minimist": "1.2.0",
     "serve-static": "1.11.1",
-    "socketcluster-client": "^5.0.18",
+    "socketcluster-client": "^8.0.0",
     "express": "4.15.4",
     "socketcluster": "7.x",
     "serve-static": "1.12.6"
