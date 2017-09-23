@@ -9,10 +9,11 @@
     }
   ],
   "dependencies": {
-    "connect": "3.0.1",
+    "connect": "3.5.0",
     "minimist": "1.2.0",
+    "serve-static": "1.11.1",
+    "socketcluster-client": "^5.0.18",
     "express": "4.15.4",
-    "socketcluster-client": "5.x",
     "socketcluster": "7.x",
     "serve-static": "1.12.6"
   },
