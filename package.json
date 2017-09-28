@@ -11,11 +11,11 @@
   "dependencies": {
     "connect": "3.6.5",
     "minimist": "1.2.0",
-    "serve-static": "1.11.1",
+    "serve-static": "1.13.0",
     "socketcluster-client": "^8.0.0",
     "express": "4.15.4",
     "socketcluster": "^8.0.0",
-    "serve-static": "1.12.6"
+    "serve-static": "1.13.0"
   },
   "keywords": [
     "websocket",
