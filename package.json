@@ -13,7 +13,7 @@
     "minimist": "1.2.0",
     "serve-static": "1.11.1",
     "socketcluster-client": "^8.0.0",
-    "express": "4.16.0",
+    "express": "4.16.1",
     "socketcluster": "^8.0.0",
     "serve-static": "1.12.6"
   },
