@@ -14,7 +14,7 @@
     "serve-static": "1.11.1",
     "socketcluster-client": "^14.0.0",
     "express": "5.0.0-alpha.7",
-    "socketcluster": "^14.3.1",
+    "socketcluster": "^16.0.1",
     "serve-static": "1.13.1"
   },
   "keywords": [
