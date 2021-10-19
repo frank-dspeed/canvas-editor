@@ -1,4 +1,4 @@
-FROM node:6.2
+FROM node:16.11
 MAINTAINER Frank Lemanschik
 
 LABEL version="4.5.0"
